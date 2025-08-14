@@ -108,17 +108,6 @@ def add(a: int, b: int) -> int:
 
 ---
 
-## **📂 Repository Structure**
-```
-.
-├── test.ipynb          # Main Google Colab notebook
-├── README.md           # Project documentation
-├── review_output.json  # Example JSON output
-├── review_output.md    # Example Markdown output
-```
-
----
-
 ## **📋 Final Submission Checklist**
 - [x] **Public GitHub Repo** with notebook and README  
 - [x] **README.md** includes:
