@@ -106,6 +106,24 @@ def add(a: int, b: int) -> int:
 **Holistic Summary:** Overall, your function is concise and clean. By correcting the operation and adding type hints, you'll improve clarity and maintainability.
 ```
 
+## 🔐 Getting and Setting Your HuggingFace Token (`HF_TOKEN`)
+
+This project requires a **HuggingFace API token** to access the models.  
+Follow these steps to obtain and configure it:
+
+### 1️⃣ Create / Log in to Your HuggingFace Account
+- Go to [https://huggingface.co/join](https://huggingface.co/join) and create a free account or log in.
+
+### 2️⃣ Generate a New Access Token
+- Navigate to [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+- Click **New token**, give it a name (e.g., `darwix-hackathon`), and choose **Read** access.
+- Copy the generated token.
+
+### 3️⃣ Set the Token in Google Colab
+Run this in a cell **before using the models**:
+```python
+%env HF_TOKEN=your-huggingface-token
+
 ---
 
 ## **📋 Final Submission Checklist**
